@@ -50,7 +50,7 @@ After successful login, the script will navigate to the "Python Programming" cou
 
 Example Output
 yaml
-Copy code
+
 Enter your username: your_username
 Enter your password: your_password
 Login successful. Proceeding to retrieve attendance...
