@@ -28,6 +28,39 @@ You can install the required Python packages via `pip`:
 ```bash
 pip install selenium beautifulsoup4 webdriver-manager
 
+```
+setup:
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/selenium-attendance-tracker.git
+cd selenium-attendance-tracker
+
+```
+Install the required dependencies
+
+```bash
+pip install -r requirements.txt
+
+```
+
+Download the appropriate version of ChromeDriver for your version of Google Chrome:
+
+Visit: https://sites.google.com/chromium.org/driver/
+Download the driver that matches your Chrome version.
+Ensure that chromedriver is in your system's PATH, or specify its location in the script.
+
+## Usage
+Run the script:
+```bash
+python attendance_tracker.py
+```
+
+
+Enter your username and password when prompted in the terminal.
+
+After a successful login, the script will navigate to the "Python Programming" course page and display attendance information in the terminal.
+
 
 
 
